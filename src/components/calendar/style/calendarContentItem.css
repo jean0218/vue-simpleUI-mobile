@@ -1,0 +1,44 @@
+.calendar-item-header{
+    line-height: 3rem;
+    height: 3rem;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 1.6rem;
+}
+.calendar-table{
+    border:0;
+    border-collapse: none;
+    border-spacing: 0;
+    width:100%;
+    font-size: 1.4rem;
+}
+.calendar-table > thead > tr > th{
+    padding:1rem 0;
+    background:#fff;
+}
+.calendar-table > tbody > tr > td{
+    border:0;
+    border-top: 1px solid #f1f1f1;
+    font-size: 1.2rem;
+}
+.calendar-table .day{
+    background:#fff;
+    padding:1.8rem 0;
+    display:block;
+    font-size: 1.4rem;
+}
+.calendar-table .weekend{
+    color: #E03636;
+}
+.calendar-table .day:hover{
+    cursor:pointer;
+    background:#FFE500;
+    color:#fff;
+}
+.calendar-table .day.acitve{
+/*    background:#FFE500;
+    color:#fff;*/
+}
+.calendar-table .day.prev,
+.calendar-table .day.next{
+    background:none;
+}

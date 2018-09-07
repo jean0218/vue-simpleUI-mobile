@@ -1,0 +1,24 @@
+.calendar-content{
+    background: #fafafa;
+    position:absolute;
+    top:0;   
+    left:0; 
+    width:100%;
+    text-align: center;
+}
+.calendar-content-header{
+    display: flex;
+    justify-content:space-between;   
+    background:#fff;
+    height:4rem;
+    line-height:4rem;
+    padding:0 2rem;
+    font-size: 1.6rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+}
+.calendar-content-body{
+    padding-top: 4rem;
+}

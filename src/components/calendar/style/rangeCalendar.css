@@ -1,0 +1,17 @@
+.range-calendar{
+	
+}
+.range-calendar-header{
+	display: flex;
+	border:1px solid #ccc;
+	width: 100%;
+	border-radius: .2rem;
+}
+.range-calendar-header .calendar-input{
+	border:0;
+	text-align: center;
+}
+.range-calendar .calendar-middle{
+	height: 4rem;
+	line-height: 4rem;
+}
